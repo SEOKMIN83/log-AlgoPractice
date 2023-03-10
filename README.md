@@ -1,2 +1,2 @@
-# log-AlgoPractice
+# log- Algorithm Practice
 Practice algorithm 
