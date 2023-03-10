@@ -1,0 +1,2 @@
+# log-AlgoPractice
+Practice algorithm 
