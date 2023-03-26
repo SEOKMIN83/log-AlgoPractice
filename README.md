@@ -1,5 +1,5 @@
 # log- Algorithm Practice
 Practice algorithm 
-- [] checkbox test
+- [ ] checkbox test
 - [x] two
 
