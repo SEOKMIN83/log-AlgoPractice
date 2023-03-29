@@ -93,8 +93,8 @@ Practice algorithm
 > - 학습 내용
 >   - list끼리의 '+' 연산
 >   - 일단 (n+1)*(n+1) 테이블의 '맨 첫 행만' 설정한 뒤, 맨 첫 행 이후의 행들은 append를 하는 방식으로 원본 테이블 table_data를 입력 받을 수 있다.
->     - `table_data = [[0] * (n+1)] 
-for i in range(n): row_data = [0] + [int(x) for x in input().split()]
+>     - `table_data = [[0] * (n+1)] \
+for i in range(n): row_data = [0] + [int(x) for x in input().split()] \
 table_data.append(row_data)`
 >   - 수학적인 공식 패턴 有
 
