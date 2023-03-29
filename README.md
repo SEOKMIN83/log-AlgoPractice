@@ -79,7 +79,7 @@ Practice algorithm
 
 #### 03-2 구간 합
 - '합 배열' --> 시간 복잡도 ↓ (O(n) -> O(1))
-![img_1.png](img_1.png)
+- ![img_1.png](img_1.png)
 
 > 003. [silver-3] 구간 합 구하기 1
 > - 합 배열 --> 구간 합
@@ -87,6 +87,16 @@ Practice algorithm
 >   - `input = sys.stdin.readline`
 >     - 이 코드의 유무만으로 '시간초과'와 '맞았습니다'가 결정됨
 >     - 입력 속도 : 일반 input() <<<<< sys.stdin.readline()
+
+> 004. [silver-1] 구간 합 구하기 2
+> - 합 배열의 확장 ; 1차원 -> 2차원
+> - 학습 내용
+>   - list끼리의 '+' 연산
+>   - 일단 (n+1)*(n+1) 테이블의 '맨 첫 행만' 설정한 뒤, 맨 첫 행 이후의 행들은 append를 하는 방식으로 원본 테이블 table_data를 입력 받을 수 있다.
+>     - `table_data = [[0] * (n+1)] 
+for i in range(n): row_data = [0] + [int(x) for x in input().split()]
+table_data.append(row_data)`
+>   - 수학적인 공식 패턴 有
 
 
 #### 03-3 투 포인터
