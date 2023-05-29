@@ -1,3 +1,5 @@
+# 탐색 > 너비 우선 탐색
+
 # 입력 - Vertex 개수, Edge 개수, 시작 vertex
 N, M, Start = map(int, input().split())
 
